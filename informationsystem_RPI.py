@@ -11,9 +11,6 @@ import os
 import imaplib      
 import email
 from email.header import decode_header
-import imaplib
-import email
-from email.header import decode_header
 
 def get_unread_counts_and_last_message(email_address, password):
 
